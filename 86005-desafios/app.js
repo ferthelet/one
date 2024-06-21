@@ -18,6 +18,20 @@ while (contador >= 0) {
 
 // Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando
 // un bucle 'while' en la consola del navegador.
+let numeroUsuario = prompt ("Ingrese un numero menor 50 por favor");
+contador = 0;
 
-// Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando
+while (contador <= numeroUsuario) {
+    console.log(contador);
+    contador += 1;    
+}
+
+// Crea un programa de cuenta regresiva. Pide un número y cuenta desde el número hasta cero utilizando
 // un bucle 'while' en la consola del navegador.
+numeroUsuario = prompt ("Ingrese un numero menor 50 por favor");
+contador = numeroUsuario;
+
+while (contador >= 0) {
+    console.log(contador);
+    contador -= 1;    
+}
