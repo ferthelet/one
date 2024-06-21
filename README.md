@@ -1,2 +1,2 @@
-# one
-Oracle ONE
+# Oracle ONE
+Exercises repo
