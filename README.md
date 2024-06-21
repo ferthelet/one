@@ -4,7 +4,7 @@ Exercises repo
 ## Recursos
 
 ### Github
-[MarkDoen Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[MarkDown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### Javascript
 
