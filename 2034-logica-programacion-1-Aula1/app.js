@@ -7,9 +7,9 @@ console.log(numeroUsuario);
 /* Este codigo realiza la comparacion
 */
 if (numeroUsuario == numeroSecreto) {
-    // acertamos
-    alert('Acertaste el numero');
+    // acertamos, insertando variable, puede ser codigo JS !!
+    alert(`Acertaste el numero es ${numeroSecreto}`);
 } else {
     // no acertamos
-    alert('Lo siento, no acertaste');
+    alert(`Lo siento, no acertaste, el numero es ${numeroSecreto}`);
 }
