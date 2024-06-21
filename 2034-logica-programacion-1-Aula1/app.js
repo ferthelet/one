@@ -14,7 +14,7 @@ while (numeroUsuario != numeroSecreto) {
     */
     if (numeroUsuario == numeroSecreto) {
         // acertamos, insertando variable, puede ser codigo JS !!
-        alert(`Acertaste el numero es ${numeroSecreto}. Lo hiciste en ${intentos} veces`);
+        alert(`Acertaste el numero es ${numeroSecreto}. Lo hiciste en ${intentos} ${intentos > 1 ? "veces" : "vez"}`);
     } else {
         // no acertamos
         if (numeroUsuario > numeroSecreto) {
