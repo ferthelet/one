@@ -1,6 +1,6 @@
 // variables
-let numeroSecreto = 6;
-let numeroUsuario = prompt("Me indicas un numero por favor:");
+let numeroSecreto = 5;
+let numeroUsuario = prompt("Me indicas un numero entre 1 y 10 por favor:");
 
 console.log(numeroUsuario);
 
@@ -11,5 +11,9 @@ if (numeroUsuario == numeroSecreto) {
     alert(`Acertaste el numero es ${numeroSecreto}`);
 } else {
     // no acertamos
-    alert(`Lo siento, no acertaste, el numero es ${numeroSecreto}`);
+    if (numeroUsuario > numeroSecreto) {
+        alert(`El numero secreto es menor`);
+    } else {
+        alert(`El numero secreto es mayor`);
+    }
 }
