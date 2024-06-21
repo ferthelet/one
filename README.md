@@ -22,6 +22,8 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 [Guía de JavaScript: qué es y cómo aprender el lenguaje más popular del mundo.](https://www.aluracursos.com/blog/guia-de-javascript)
 
+[Operadores de comparacion](https://www.aluracursos.com/blog/como-utilizar-operadores-de-comparacion-en-javascript)
+
 ### VS Code
 [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
