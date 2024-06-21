@@ -1,4 +1,5 @@
-# Oracle ONE
+# Oracle ONE (Grupo 7)
+[Accesso Directo al Aula del Curso](https://app.aluracursos.com/dashboard)
 
 ONE es un programa de educación, y empleabilidad con el objetivo social de capacitar personas en tecnología y conectarlas con el mercado de trabajo a través de las empresas asociadas.
 1. El curso es 100% virtual y totalmente gratis, hecho para quien no tiene acceso a educación de calidad y desea transformar su realidad social.
