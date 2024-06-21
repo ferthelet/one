@@ -1,2 +1,26 @@
-# Oracle ONE
-Exercises repo
+# Oracle ONE (Grupo 7)
+[Acceso Directo al Aula del Curso](https://app.aluracursos.com/dashboard)
+
+ONE es un programa de educación, y empleabilidad con el objetivo social de capacitar personas en tecnología y conectarlas con el mercado de trabajo a través de las empresas asociadas.
+1. El curso es 100% virtual y totalmente gratis, hecho para quien no tiene acceso a educación de calidad y desea transformar su realidad social.
+2. El programa habilita las inscripciones 2 veces al año.
+3. Cada generación de estudiantes, cumple una jornada de 6 meses, dividida en 4 rutas disponibles en la plataforma – en total son más de 560 horas de experiencia de contenido.
+4. Al finalizar la participación de ONE, los y las estudiantes tienen la oportunidad de ser parte de la Comunidad Alumni, para egresados (as), con beneficios gratuitos y rutas Oracle, exclusivas.
+
+Al concluir todo el trayecto del programa, recibirás un certificado y podrás desenvolver trabajos desarrollando softwares, aplicaciones, redes sociales y mucho más.
+
+Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/oracle-next-education/)
+
+## Recursos
+
+### Github
+[MarkDown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+### Javascript
+
+[La documentación del Lenguaje JavaScript](https://app.aluracursos.com/course/logica-programacion-sumergete-programacion-javascript/task/85960#:~:text=La%20documentaci%C3%B3n%20del%20Lenguaje%20JavaScript)
+
+[Guía de JavaScript: qué es y cómo aprender el lenguaje más popular del mundo.](https://www.aluracursos.com/blog/guia-de-javascript)
+
+### VS Code
+[Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
