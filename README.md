@@ -24,3 +24,4 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 ### VS Code
 [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+[Live Preview de Microsoft en reemplazo de Live Server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
