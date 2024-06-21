@@ -1,5 +1,4 @@
 # Oracle ONE
-Exercises repo
 
 ONE es un programa de educación, y empleabilidad con el objetivo social de capacitar personas en tecnología y conectarlas con el mercado de trabajo a través de las empresas asociadas.
 1. El curso es 100% virtual y totalmente gratis, hecho para quien no tiene acceso a educación de calidad y desea transformar su realidad social.
@@ -8,6 +7,7 @@ ONE es un programa de educación, y empleabilidad con el objetivo social de capa
 4. Al finalizar la participación de ONE, los y las estudiantes tienen la oportunidad de ser parte de la Comunidad Alumni, para egresados (as), con beneficios gratuitos y rutas Oracle, exclusivas.
 
 Al concluir todo el trayecto del programa, recibirás un certificado y podrás desenvolver trabajos desarrollando softwares, aplicaciones, redes sociales y mucho más.
+
 Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/oracle-next-education/)
 
 ## Recursos
