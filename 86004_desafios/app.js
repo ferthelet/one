@@ -31,7 +31,10 @@ if (puntuacion >= 100) {
 
 // Crea un mensaje que informe al usuario sobre el saldo de su cuenta, utilizando un template string
 // para incluir el valor del saldo.
+let saldo = Math.random() * 10000;
+alert (`¡Felicidades! Su saldo es ${saldo}`);
 
 // Pide al usuario que ingrese su nombre mediante un prompt. Luego, muestra una alerta de bienvenida
 // usando ese nombre.
-
+let nombre = prompt ("Ingrese su nombre");
+alert (`${nombre} sea muy bievenido/a!`);
