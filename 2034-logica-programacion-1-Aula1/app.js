@@ -1,6 +1,7 @@
 // variables
 let numeroSecreto = 5;
 let numeroUsuario = 0;
+let intentos = 1;
 
 // repetir hasta que sea correcto
 while (numeroUsuario != numeroSecreto) {
@@ -13,7 +14,7 @@ while (numeroUsuario != numeroSecreto) {
     */
     if (numeroUsuario == numeroSecreto) {
         // acertamos, insertando variable, puede ser codigo JS !!
-        alert(`Acertaste el numero es ${numeroSecreto}`);
+        alert(`Acertaste el numero es ${numeroSecreto}. Lo hiciste en ${intentos} veces`);
     } else {
         // no acertamos
         if (numeroUsuario > numeroSecreto) {
@@ -21,5 +22,6 @@ while (numeroUsuario != numeroSecreto) {
         } else {
             alert(`El numero secreto es mayor`);
         }
+        intentos += 1;
     }
 }
