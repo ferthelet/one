@@ -47,12 +47,26 @@ let numero = prompt("Ingrese un valor");
 numero == 0 ? console.log("Cero") : numero > 0 ? console.log("Positivo") : console.log("Negativo");
 
 // Utiliza un bucle while para mostrar los números del 1 al 10 en la consola.
+const MAX = 10;
+let contador = 1;
+while (contador <= MAX) {
+    console.log(contador++);
+}
 
 // Crea una variable "nota" y asígnale un valor numérico. Utiliza un if-else para determinar si la nota
 // es mayor o igual a 7 y muestra "Aprobado" o "Reprobado" en la consola.
+const NOTA_MINIMA = 7;
+let nota = 5;
+nota >= 7 ? console.log("Aprobado") : console.log("Reprobado");
 
 // Utiliza Math.random para generar cualquier número aleatorio y muestra ese número en la consola.
+let aleatorio = Math.random();
+console.log(`Numero random ${aleatorio}`);
 
 // Utiliza Math.random para generar un número entero entre 1 y 10 y muestra ese número en la consola.
+aleatorio = Math.floor(Math.random() * 10) + 1
+console.log(`Numero random entre 1 y 10 ${aleatorio}`);
 
 // Utiliza Math.random para generar un número entero entre 1 y 1000 y muestra ese número en la consola.
+aleatorio = Math.floor(Math.random() * 1000) + 1
+console.log(`Numero random entre 1 y 1000 ${aleatorio}`);
