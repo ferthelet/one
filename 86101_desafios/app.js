@@ -1,5 +1,6 @@
 // Desafíos
 // Descarga otro proyecto haciendo clic en este enlace y ábrelo en Visual Studio Code.
+// https://github.com/alura-es-cursos/js-curso-2/tree/main
 
 // Cambia el contenido de la etiqueta h1 con document.querySelector y asigna el siguiente
 // texto: "Hora del Desafío".
