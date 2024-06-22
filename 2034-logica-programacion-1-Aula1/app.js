@@ -1,4 +1,5 @@
 // variables
+const MAX_INTENTOS = 3;
 let numeroSecreto = 5;
 let numeroUsuario = 0;
 let intentos = 1;
@@ -23,8 +24,8 @@ while (numeroUsuario != numeroSecreto) {
             alert(`El numero secreto es mayor`);
         }
         intentos++;
-        if (intentos > 3) {
-            alert ("Llegaste al numero maximo de intentos");
+        if (intentos > MAX_INTENTOS) {
+            alert (`Llegaste al numero maximo de intentos ${MAX_INTENTOS}`);
             break;
         }
     }
