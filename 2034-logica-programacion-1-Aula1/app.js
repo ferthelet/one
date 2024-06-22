@@ -1,13 +1,14 @@
 // variables
-const MAX_INTENTOS = 3;
-let numeroSecreto = Math.floor(Math.random() * 10) + 1; // random entre 1 y 10
+const MAX_NUMEROS = 20;
+const MAX_INTENTOS = Math.floor(MAX_NUMEROS / 3); // cantidad de intentos un tercio del maximo
+let numeroSecreto = Math.floor(Math.random() * MAX_NUMEROS) + 1; // random entre 1 y MAX_NUMEROS
 let numeroUsuario = 0;
 let intentos = 1;
 
 // repetir hasta que sea correcto
 while (numeroUsuario != numeroSecreto) {
 
-    numeroUsuario = parseInt(prompt("Me indicas un numero entre 1 y 10 por favor:"));
+    numeroUsuario = parseInt(prompt(`Me indicas un numero entre 1 y ${MAX_NUMEROS} por favor`));
     // DELETE_ME for testing
     console.log(typeof(numeroUsuario));
     console.log(numeroUsuario);
