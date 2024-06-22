@@ -22,6 +22,10 @@ while (numeroUsuario != numeroSecreto) {
         } else {
             alert(`El numero secreto es mayor`);
         }
-        intentos += 1;
+        intentos++;
+        if (intentos > 3) {
+            alert ("Llegaste al numero maximo de intentos");
+            break;
+        }
     }
 }
