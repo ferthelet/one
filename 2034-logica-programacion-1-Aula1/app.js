@@ -1,6 +1,6 @@
 // variables
 const MAX_INTENTOS = 3;
-let numeroSecreto = 5;
+let numeroSecreto = Math.floor(Math.random() * 10) + 1; // random entre 1 y 10
 let numeroUsuario = 0;
 let intentos = 1;
 
@@ -25,7 +25,7 @@ while (numeroUsuario != numeroSecreto) {
         }
         intentos++;
         if (intentos > MAX_INTENTOS) {
-            alert (`Llegaste al numero maximo de intentos ${MAX_INTENTOS}`);
+            alert (`Llegaste al maximo de intentos ${MAX_INTENTOS}. Numero secreto ${numeroSecreto}`);
             break;
         }
     }
