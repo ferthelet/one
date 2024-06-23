@@ -1,21 +1,25 @@
 // hoisting probado en version anterior
-// redordenando funciones on top
+// re-ordenando funciones on top
 
 const NUMERO_MAX = 10;
 let numeroSecreto = generaSecreto(NUMERO_MAX);
-console.log(numeroSecreto); // TBD
+// console.log(numeroSecreto); // TBD
 
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector(elemento);
     elementoHTML.innerHTML = texto;
 }
 
-function intentoDeUsuario() {
-    alert('Click desde boton');
+function verificarIntento() {
+    let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
+    console.log(numeroSecreto);
+    console.log(numeroDeUsuario);
+    console.log(numeroDeUsuario === numeroSecreto);
+    return
 }
 
 function generaSecreto(max) {
-    return Math.floor(Math.random() * max) + 1;    
+    return Math.floor(Math.random() * max) + 1;
 }
 
 // let titulo = document.querySelector('h1');
