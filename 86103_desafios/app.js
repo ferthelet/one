@@ -32,12 +32,30 @@ console.log(convierteDolares(5));
 function calculaAreaPerimetro(altura, anchura) {
     let area = altura * anchura;
     let perimetro = 2 * (altura + anchura);
-    console.log(`area ${area}, perimetro ${perimetro}`);
+    console.log(`Rectangulo: area ${area}, perimetro ${perimetro}`);
 }
 calculaAreaPerimetro(12, 7);
 
 // Crea una función que muestre en pantalla el área y el perímetro de una sala circular,
 // utilizando su radio que se proporcionará como parámetro. Considera Pi = 3,14.
+function calculaAreaPerimetroCirculo(radio) {
+    const PI = 3.14;
+    let area = radio * PI ** 2;
+    let perimetro = 2 * PI * radio;
+    console.log(`Circulo: area ${area}, perimetro ${perimetro}`);
+}
+calculaAreaPerimetroCirculo(5);
 
 // Crea una función que muestre en pantalla la tabla de multiplicar de un número dado como
 // parámetro.
+function creaTablaDeMultiplicar(numero) {
+    const MAX_TABLA = 12;
+    let contador = 1;
+
+    while (contador <= MAX_TABLA) {
+        // alert(`cuenta ${contador}`);
+        console.log(`${numero} x ${contador} = ${numero * contador}`);
+        contador++;
+    }    
+}
+creaTablaDeMultiplicar(4);
