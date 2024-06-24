@@ -18,8 +18,9 @@ function verificaIntento() {
     // console.log(numeroDeUsuario);
     // console.log(numeroDeUsuario === numeroSecreto);
     if (numeroDeUsuario === numeroSecreto) {
-        asignaTextoElemento('p', `Acertaste el numero en ${intentos} ${intentos === 1 ? 'vez' : 'veces'}`);
+        asignaTextoElemento('p', `Acertaste el numero en ${intentos} ${intentos == 1 ? 'vez' : 'veces'}`);
         document.getElementById('reiniciar').removeAttribute('disabled');
+        document.getElementById('intentar').setAttribute('disabled', 'true');
     } else {
         // El usuario no acerto
         if (numeroDeUsuario > numeroSecreto) {
@@ -56,11 +57,9 @@ function reiniciarJuego() {
     limpiaCaja();
     condicionesIniciales();
     // deshabilia boton nuevo juego
+    document.querySelector('#intentar').removeAttribute('disabled');
     document.querySelector('#reiniciar').setAttribute('disabled', 'true');
 }
 
 // main
 condicionesIniciales();
-
-
-
