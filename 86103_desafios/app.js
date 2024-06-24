@@ -17,6 +17,14 @@ function factorial(numero) {
     return acumulador;
 }
 console.log(factorial(2));
+// solucion propuesta usa funcion recursiva
+// function calcularFactorial(numero) {
+//     if (numero === 0 || numero === 1) {
+//       return 1;
+//     } else {
+//       return numero * calcularFactorial(numero - 1);
+//     }
+//   }
 
 // Crea una función que convierta un valor en dólares, pasado como parámetro, y devuelva el
 // valor equivalente en reales(moneda brasileña,si deseas puedes hacerlo con el valor del
@@ -52,6 +60,7 @@ function creaTablaDeMultiplicar(numero) {
     const MAX_TABLA = 12;
     let contador = 1;
 
+    // solucion propuesta usa bucle for que no hemos visto aun
     while (contador <= MAX_TABLA) {
         // alert(`cuenta ${contador}`);
         console.log(`${numero} x ${contador} = ${numero * contador}`);
