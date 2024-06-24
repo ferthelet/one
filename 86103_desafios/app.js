@@ -16,15 +16,25 @@ function factorial(numero) {
     }
     return acumulador;
 }
-
 console.log(factorial(2));
 
 // Crea una función que convierta un valor en dólares, pasado como parámetro, y devuelva el
 // valor equivalente en reales(moneda brasileña,si deseas puedes hacerlo con el valor del
 // dólar en tu país). Para esto, considera la cotización del dólar igual a R$4,80.
+function convierteDolares(dolares) {
+    let tasaDeCambio = 4.80; // R$
+    return dolares * tasaDeCambio;
+}
+console.log(convierteDolares(5));
 
 // Crea una función que muestre en pantalla el área y el perímetro de una sala rectangular,
 // utilizando la altura y la anchura que se proporcionarán como parámetros.
+function calculaAreaPerimetro(altura, anchura) {
+    let area = altura * anchura;
+    let perimetro = 2 * (altura + anchura);
+    console.log(`area ${area}, perimetro ${perimetro}`);
+}
+calculaAreaPerimetro(12, 7);
 
 // Crea una función que muestre en pantalla el área y el perímetro de una sala circular,
 // utilizando su radio que se proporcionará como parámetro. Considera Pi = 3,14.
