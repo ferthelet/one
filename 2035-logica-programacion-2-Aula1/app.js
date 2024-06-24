@@ -50,13 +50,13 @@ function condicionesIniciales() {
     asignaTextoElemento('p', `Ingresa un numero del 1 al ${NUMERO_MAX}`);
     numeroSecreto = generaSecreto(NUMERO_MAX);
     intentos = 1;
-    console.log(numeroSecreto);
+    console.log(numeroSecreto); //TBD
 }
 
 function reiniciarJuego() {
     limpiaCaja();
     condicionesIniciales();
-    // deshabilia boton nuevo juego
+    // activa/desactiva botones
     document.querySelector('#intentar').removeAttribute('disabled');
     document.querySelector('#reiniciar').setAttribute('disabled', 'true');
 }
