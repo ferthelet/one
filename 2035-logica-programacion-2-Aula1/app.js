@@ -6,6 +6,8 @@ const NUMERO_MAX = 10;
 let numeroSecreto = 0;
 // console.log(numeroSecreto); // TBD
 let intentos = 0;
+// arreglo para evitar que los aleatorios se repitan
+let listaNumerosSorteados = [];
 
 function asignaTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector(elemento);
@@ -38,7 +40,17 @@ function limpiaCaja() {
 }
 
 function generaSecreto(max) {
-    return Math.floor(Math.random() * max) + 1;
+    let numeroGenerado = Math.floor(Math.random() * max) + 1;
+    console.log(numeroGenerado); // tbd
+    console.log(listaNumerosSorteados); // tbd
+    // si el numero ya fue "sorteado" 
+    if (listaNumerosSorteados.includes(numeroGenerado)) {
+        // recursivo?
+        return generaSecreto(max);
+    } else {
+        listaNumerosSorteados.push(numeroGenerado);
+        return numeroGenerado;
+    }
 }
 
 function condicionesIniciales() {
