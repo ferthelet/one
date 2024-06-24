@@ -2,7 +2,7 @@
 // re-ordenando funciones on top
 // actualizado con https://github.com/alura-es-cursos/2035-logica-programacion-2/blob/Aula3/app.js
 
-const NUMERO_MAX = 10;
+const NUMERO_MAX = 3;
 let numeroSecreto = 0;
 // console.log(numeroSecreto); // TBD
 let intentos = 0;
@@ -43,13 +43,20 @@ function generaSecreto(max) {
     let numeroGenerado = Math.floor(Math.random() * max) + 1;
     console.log(numeroGenerado); // tbd
     console.log(listaNumerosSorteados); // tbd
-    // si el numero ya fue "sorteado" 
-    if (listaNumerosSorteados.includes(numeroGenerado)) {
-        // recursivo?
-        return generaSecreto(max);
+
+    // condicion de salida
+    if (listaNumerosSorteados.length === max) {
+        asignaTextoElemento('p', 'Ya se sortearon todos los numeros disponibles');
     } else {
-        listaNumerosSorteados.push(numeroGenerado);
-        return numeroGenerado;
+        // console.log(listaNumerosSorteados.includes(numeroGenerado)); // tbd
+        // si el numero ya fue "sorteado" 
+        if (listaNumerosSorteados.includes(numeroGenerado)) {
+            // recursivo?
+            return generaSecreto(max);
+        } else {
+            listaNumerosSorteados.push(numeroGenerado);
+            return numeroGenerado;
+        }
     }
 }
 
