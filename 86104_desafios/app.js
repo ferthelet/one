@@ -80,9 +80,34 @@ console.log(sumarElementos(numeros));
 
 // Crea una función que devuelva la posición en la lista donde se encuentra un elemento
 // pasado como parámetro, o -1 si no existe en la lista.
+function buscarElemento(lista, elemento) {
+    for (let i = 0; i < lista.length; i++) {
+        if (lista[i] === elemento) {
+            return i; // posicion
+        }
+    }
+    return -1; // no encontrado
+}
+console.log(buscarElemento(lenguagesDeProgramacion, 'Java'));
 
 // Crea una función que reciba dos listas de números del mismo tamaño y devuelva una nueva
 // lista con la suma de los elementos uno a uno.
+function sumarListas(lista1, lista2) {
+    let resultado = [];
+    for (let i = 0; i < lista1.length; i++) {
+        resultado.push(lista1[i] + lista2[i]);
+    }
+    return resultado;
+}
+console.log(sumarListas([1, 2, 3], [4, 5, 6]));
 
 // Crea una función que reciba una lista de números y devuelva una nueva lista con el
 // cuadrado de cada número.
+function cuadrados(lista) {
+    let resultado = [];
+    for (let i = 0; i < lista.length; i++) {
+        resultado.push(lista[i] * lista[i]);
+    }
+    return resultado;
+}
+console.log(cuadrados([1, 2, 3]));
