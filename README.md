@@ -25,6 +25,12 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 [Operadores de comparacion](https://www.aluracursos.com/blog/como-utilizar-operadores-de-comparacion-en-javascript)
 
 ### VS Code
+
+#### Reformat
++On Windows Shift + Alt + F
++On Mac Shift + Option + F
++On Linux Ctrl + Shift + I
+
 [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
 [Live Preview de Microsoft en reemplazo de Live Server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
