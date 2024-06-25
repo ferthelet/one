@@ -28,7 +28,9 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 #### Reformat
 +On Windows Shift + Alt + F
+
 +On Mac Shift + Option + F
+
 +On Linux Ctrl + Shift + I
 
 [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
