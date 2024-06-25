@@ -2,7 +2,7 @@
 // re-ordenando funciones on top
 // actualizado con https://github.com/alura-es-cursos/2035-logica-programacion-2/blob/Aula3/app.js
 
-const NUMERO_MAX = 3;
+const NUMERO_MAX = 10;
 let numeroSecreto = 0;
 // console.log(numeroSecreto); // TBD
 let intentos = 0;
