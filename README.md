@@ -36,3 +36,8 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 [Live Preview de Microsoft en reemplazo de Live Server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
 
 [Extensiones mas usadas -- Alura](https://www.aluracursos.com/blog/extensiones-de-vscode-descubre-cuales-son-las-mas-utilizadas)
+
+
+### Figma
+
+[Clase 2067 HTML CSS Portafolio Curso](https://www.figma.com/design/D464FfN417KSWJHIUVpMnX/Portafolio---Curso?node-id=1-11&t=OG8gYvpzqVlhXNqH-0)
