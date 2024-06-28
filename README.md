@@ -62,6 +62,8 @@ BEM En Alura [Organizar el CSS](https://www.aluracursos.com/blog/como-organizar-
 
 [CSS Tricks](https://css-tricks.com/guides/)
 
+[[CSS Diner Game](https://flukeout.github.io/)
+
 Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt](https://colorhunt.co/)
 
 [Adobe Color Wheel](https://color.adobe.com/es/create/color-wheel)
