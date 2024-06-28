@@ -56,6 +56,8 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 [BEM Why? Introduccion](https://getbem.com/introduction/)
 
+BEM En Alura [Organizar el CSS](https://www.aluracursos.com/blog/como-organizar-el-css-en-tu-proyecto) y [Nombres de clases](https://www.aluracursos.com/blog/nombre-de-clases-en-css)
+
 [CSS Tricks](https://css-tricks.com/guides/)
 
 Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt](https://colorhunt.co/)
