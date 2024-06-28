@@ -37,13 +37,17 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 [Extensiones mas usadas -- Alura](https://www.aluracursos.com/blog/extensiones-de-vscode-descubre-cuales-son-las-mas-utilizadas)
 
-## HTML y CSS
+### Figma
+
+[Clase 2067 HTML CSS Portafolio Curso](https://www.figma.com/design/D464FfN417KSWJHIUVpMnX/Portafolio---Curso?node-id=1-11&t=OG8gYvpzqVlhXNqH-0)
+
+## HTML 
 
 ### Etiquetas semanticas
 ![Estructura HTML](https://www.aluracursos.com/blog/assets/html-etiquetas/imagen2.webp)
 
-### Figma
+## CSS
 
-[Clase 2067 HTML CSS Portafolio Curso](https://www.figma.com/design/D464FfN417KSWJHIUVpMnX/Portafolio---Curso?node-id=1-11&t=OG8gYvpzqVlhXNqH-0)
+Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt](https://colorhunt.co/)
 
 
