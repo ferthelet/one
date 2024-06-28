@@ -48,6 +48,6 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 ## CSS
 
-[Generador de paletas de colores! Coolors](https://coolors.co/) [Color Hunt](https://colorhunt.co/)
+Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt](https://colorhunt.co/)
 
 
