@@ -54,6 +54,8 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 ## CSS
 
+[BEM Why? Introduccion](https://getbem.com/introduction/)
+
 [CSS Tricks](https://css-tricks.com/guides/)
 
 Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt](https://colorhunt.co/)
