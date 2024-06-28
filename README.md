@@ -40,7 +40,7 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 ## HTML y CSS
 
 ### Etiquetas semanticas
-![Estructura HTML](![image](https://github.com/ferthelet/one/assets/1704476/8a56620a-964a-4500-a8a8-e0f9afb57de1))
+![Estructura HTML](https://www.aluracursos.com/blog/assets/html-etiquetas/imagen2.webp)
 
 ### Figma
 
