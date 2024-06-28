@@ -37,7 +37,13 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 [Extensiones mas usadas -- Alura](https://www.aluracursos.com/blog/extensiones-de-vscode-descubre-cuales-son-las-mas-utilizadas)
 
+## HTML y CSS
+
+### Etiquetas semanticas
+![Estructura HTML](![image](https://github.com/ferthelet/one/assets/1704476/8a56620a-964a-4500-a8a8-e0f9afb57de1))
 
 ### Figma
 
 [Clase 2067 HTML CSS Portafolio Curso](https://www.figma.com/design/D464FfN417KSWJHIUVpMnX/Portafolio---Curso?node-id=1-11&t=OG8gYvpzqVlhXNqH-0)
+
+
