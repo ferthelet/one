@@ -50,9 +50,4 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 [Coolors - Generador de paletas de colores!](https://coolors.co/)
 
-### Figma
-
-[Clase 2067 HTML CSS Portafolio Curso](https://www.figma.com/design/D464FfN417KSWJHIUVpMnX/Portafolio---Curso?node-id=1-11&t=OG8gYvpzqVlhXNqH-0)
-
-
 
