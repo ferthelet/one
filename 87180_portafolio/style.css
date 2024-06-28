@@ -3,12 +3,12 @@ body {
     color: white;
 }
 
-strong {
-    color: #22D4FD;
-}
-
 span {
     color: #22d4fd;
     border: 1px solid #22d4fd;
     padding: 10px;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
 }
