@@ -31,6 +31,8 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 + On Mac Shift + Option + F
 + On Linux Ctrl + Shift + I
 
+[Emmet Documentation](https://docs.emmet.io/)
+
 [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
 [Live Preview de Microsoft en reemplazo de Live Server](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
@@ -46,8 +48,14 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 ### Etiquetas semanticas
 ![Estructura HTML](https://www.aluracursos.com/blog/assets/html-etiquetas/imagen2.webp)
 
+[HTML 5 The Course](https://html.com/html5/)
+
+[Responsive Web Design](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/)
+
 ## CSS
+
+[CSS Tricks](https://css-tricks.com/guides/)
 
 Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt](https://colorhunt.co/)
 
-
+[Adobe Color Wheel](https://color.adobe.com/es/create/color-wheel)
