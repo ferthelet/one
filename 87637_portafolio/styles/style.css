@@ -25,16 +25,16 @@ body {
 }
 
 .header__menu {
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    color: #22D4FD;
     display: flex;
     gap: 80px;
 }
 
 .header__menu__link {
-
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
 }
 
 span {
@@ -47,7 +47,7 @@ span {
     display: flex;
     align-items: center;
     /* margin: 10% 15%; */
-    padding: 8% 15%;
+    padding: 6% 15%;
     justify-content: space-between;
 }
 
