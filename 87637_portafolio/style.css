@@ -18,20 +18,36 @@ body {
     box-sizing: border-box;
 }
 
+.header {
+    /* de .presentacion { margin: 10% 15%; } */
+    /* padding: top right bottom left */
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
+
+}
+
 span {
     color: #22d4fd;
     border: 1px solid #22d4fd;
     padding: 10px;
 }
 
-.titulo-destaque {
-    color: #22D4FD;
-}
-
 .presentacion {
     display: flex;
     align-items: center;
-    margin: 10% 15%;
+    /* margin: 10% 15%; */
+    padding: 8% 15%;
     justify-content: space-between;
 }
 
@@ -46,6 +62,10 @@ span {
     /* from Google fonts fonts.google.com */
     font-family: "Krona One", sans-serif;
     font-size: 36px;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
 }
 
 .presentacion__contenido__texto {
