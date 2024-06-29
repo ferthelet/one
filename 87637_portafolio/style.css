@@ -10,7 +10,7 @@
 body {
     background-color: black;
     color: white;
-    height: 100vh;
+    /* height: 100vh; */
     /* 
     border-box || content-bpx (default)
     https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing 
@@ -81,4 +81,19 @@ span {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+/* cambia de color cuando pasa el mouse */
+.presentacion__enlaces__link:hover {
+    background-color: #22D4FD;
+}
+
+.footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400px;
+    background-color: #22D4FD;
+    padding: 24px;
+    color: black;
+    text-align: center;
 }
