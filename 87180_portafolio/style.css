@@ -28,4 +28,19 @@ span {
 .presentacion {
     display: flex;
     align-items: center;
+    margin: 4%;
+    justify-content: space-between;
+}
+
+.presentacion__contenido {
+    width: 615;
+}
+
+.presentacion__contenido_titulo {
+    font: Krona One;
+    font-size: 36px;
+}
+
+.presentacion__contenido_texto {
+    font-size: 24;
 }
