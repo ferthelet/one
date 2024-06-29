@@ -56,6 +56,9 @@ span {
 .presentacion__enlaces {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 
 .presentacion__enlaces__link {
