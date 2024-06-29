@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* reset css */
 * {
     padding: 0;
@@ -36,11 +39,14 @@ span {
     width: 615;
 }
 
+
 .presentacion__contenido_titulo {
-    font: Krona One;
+    /* from Google fonts fonts.google.com */
+    font-family: "Krona One", sans-serif;
     font-size: 36px;
 }
 
 .presentacion__contenido_texto {
+    font-family: "Montserrat", sans-serif;
     font-size: 24;
 }
