@@ -1,6 +1,18 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: black;
     color: white;
+    height: 100vh;
+    /* 
+    border-box || content-bpx (default)
+    https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing 
+    */
+    box-sizing: border-box;
 }
 
 span {
