@@ -1,8 +1,32 @@
-/* 2 - Centrando íconos y textos en los botones */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* 2 - Centrando íconos y textos en los botones */
 /* 3 - Espaciado entre íconos y textos */
 
-/* 4 - Personalizando el efecto Hover */
+.presentacion__enlaces__link {
+    width: 378px;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #22d4fd;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
-/* 5 - Cambiando el cursor y el fondo de los botones */
+.presentacion__enlaces__link:hover {
+    /* 4 - Personalizando el efecto Hover */
+    border: blue;
+    background-color: #272727;
+    color: white;
+    /* 5 - Cambiando el cursor y el fondo de los botones */
+    cursor: pointer;
+}
+
+
 
