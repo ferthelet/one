@@ -16,12 +16,12 @@
     border: 2px solid #22d4fd;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
 }
 
 .presentacion__enlaces__link:hover {
     /* 4 - Personalizando el efecto Hover */
-    border: blue;
+    border: 2px solid blue;
     background-color: #272727;
     color: white;
     /* 5 - Cambiando el cursor y el fondo de los botones */
