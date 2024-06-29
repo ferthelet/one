@@ -64,7 +64,7 @@ BEM En Alura [Organizar el CSS](https://www.aluracursos.com/blog/como-organizar-
 
 [Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-[Reset || Normalize?](https://github.com/necolas/normalize.css)
+[Reset o Normalize?](https://github.com/necolas/normalize.css)
 
 [CSS Diner Game](https://flukeout.github.io/)
 
