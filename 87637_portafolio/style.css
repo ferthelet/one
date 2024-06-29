@@ -42,13 +42,13 @@ span {
     gap: 43px;;
 }
 
-.presentacion__contenido_titulo {
+.presentacion__contenido__titulo {
     /* from Google fonts fonts.google.com */
     font-family: "Krona One", sans-serif;
     font-size: 36px;
 }
 
-.presentacion__contenido_texto {
+.presentacion__contenido__texto {
     font-family: "Montserrat", sans-serif;
     font-size: 24;
 }
@@ -61,15 +61,21 @@ span {
     gap: 32px;
 }
 
+.presentacion__enlaces__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .presentacion__enlaces__link {
-    width: 280px;
-    background-color: #22d4fd;
+    width: 378px;
     text-align: center;
     padding: 21.5px 0;
-    border-radius: 16px;
+    border-radius: 8px;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
-    color: black;
+    color: #f6f6f6;
+    border: 2px solid #22d4fd;
 }
