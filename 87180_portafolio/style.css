@@ -36,7 +36,7 @@ span {
 }
 
 .presentacion__contenido {
-    width: 615;
+    width: 615px;
 }
 
 .presentacion__contenido_titulo {
@@ -62,7 +62,7 @@ span {
     padding: 21.5px 0;
     border-radius: 16px;
     font-family: "Montserrat", sans-serif;
-    font-size: 24;
+    font-size: 24px;
     font-weight: 600;
     text-decoration: none;
     color: black;
