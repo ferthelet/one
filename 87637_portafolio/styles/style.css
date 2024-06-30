@@ -4,10 +4,10 @@
 :root {
     /* originales #000000 #f6f6f6 #22d4fd */
     /*  https://colorhunt.co/ */
-    --color-primario: #050C9C;
-    --color-secundario: #3572EF;
-    --color-terciario: #3ABEF9;
-    --color-hover: #A7E6FF;
+    --color-primario: #222831;
+    --color-secundario: #EEEEEE;
+    --color-terciario: #00ADB5;
+    --color-hover: #00ADB5;
 
     --fuente-montserrat: "Montserrat", sans-serif;
     --fuente-krona: "Krona One", sans-serif;
