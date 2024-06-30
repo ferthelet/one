@@ -68,6 +68,11 @@ span {
     color: #22D4FD;
 }
 
+.presentacion__contenido__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+}
+
 .presentacion__contenido__texto {
     font-family: "Montserrat", sans-serif;
     font-size: 24;
