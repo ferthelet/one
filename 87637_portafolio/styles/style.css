@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
+    /* originales #000000 #f6f6f6 #22d4fd */
+    /*  https://colorhunt.co/ */
     --color-primario: #050C9C;
     --color-secundario: #3572EF;
     --color-terciario: #3ABEF9;
