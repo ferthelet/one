@@ -43,7 +43,7 @@ body {
 
 .header__menu__link {
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-terciario);
     text-decoration: none;
@@ -73,7 +73,7 @@ span {
 .presentacion__contenido__titulo {
     /* from Google fonts fonts.google.com */
     font-family: var(--fuente-krona);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .titulo-destaque {
@@ -82,12 +82,12 @@ span {
 
 .presentacion__contenido__subtitulo {
     font-family: var(--fuente-krona);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .presentacion__contenido__texto {
     font-family: var(--fuente-montserrat);
-    font-size: 24;
+    font-size: 1.5rem;
 }
 
 .presentacion__enlaces {
@@ -100,7 +100,7 @@ span {
 
 .presentacion__enlaces__subtitulo {
     font-family: var(--fuente-krona);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -110,7 +110,7 @@ span {
     padding: 21.5px 0;
     border-radius: 8px;
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--color-secundario);
@@ -127,7 +127,7 @@ span {
 
 .footer {
     font-family: var(--fuente-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400px;
     background-color: var(--color-terciario);
     padding: 24px;
