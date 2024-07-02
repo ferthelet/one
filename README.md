@@ -14,8 +14,8 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 ## Mini challenges
 
 + [Adivina el numero secreto](https://ferthelet.github.io/one/2035-logica-programacion-2-Aula1/)
-
-+ [Portafolio](https://ferthelet.github.io/one/87180_portafolio/)
++ [Portafolio 1](https://ferthelet.github.io/one/87180_portafolio/)
++ [Portafolio 2](https://ferthelet.github.io/one/87637_portafolio/)
 
 ## Recursos
 
