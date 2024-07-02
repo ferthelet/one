@@ -14,13 +14,26 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 ## Mini challenges
 
 + [Adivina el numero secreto](https://ferthelet.github.io/one/2035-logica-programacion-2-Aula1/)
-
-+ [Portafolio](https://ferthelet.github.io/one/87180_portafolio/)
++ [Portafolio 1](https://ferthelet.github.io/one/87180_portafolio/)
++ [Portafolio 2](https://ferthelet.github.io/one/87637_portafolio/)
 
 ## Recursos
 
 ### Github
 [MarkDown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+[Badges](https://shields.io/)
+
+[Alura - Guia de Instalacion](https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos)
+
+[Alura - Nueva Exigencia de Autenticacion](https://www.aluracursos.com/blog/exigendia-autenticacion-por-token)
+
+### Resumen de comandos
+
++ Configura tu nombre (no es tu username) `git config --global user.name "Tu Nombre"` verifica con `git config --global user.name`
++ Configura tu e-mail `git config --global user.email "tu-email@ejemplo.com"` verifica con `git config --global user.email`
+
+[Git Log Cheat Sheet](https://devhints.io/git-log-format)
 
 ### Javascript
 
@@ -74,6 +87,5 @@ BEM En Alura [Organizar el CSS](https://www.aluracursos.com/blog/como-organizar-
 
 [CSS Diner Game](https://flukeout.github.io/)
 
-Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt](https://colorhunt.co/)
-
+Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt](https://colorhunt.co/) & 
 [Adobe Color Wheel](https://color.adobe.com/es/create/color-wheel)
