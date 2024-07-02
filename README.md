@@ -32,6 +32,10 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 + Configura tu nombre (no es tu username) `git config --global user.name "Tu Nombre"` verifica con `git config --global user.name`
 + Configura tu e-mail `git config --global user.email "tu-email@ejemplo.com"` verifica con `git config --global user.email`
++ Lista configuraciones `git --list`
+
+#### Crear repositorio
++ hay varias formas, una es `git init` luego cambiar de master a main con `git branck -M main` y finalmente `git push -u origin main` *-u* asume origin main como default
 
 #### Ver estado y gestion de log
 + `git status` luego `git add [.|archivo]` luego `git commit -m "actualiza xxx"`, finalmente `git push [origin main]`
