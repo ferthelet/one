@@ -77,3 +77,14 @@ BEM En Alura [Organizar el CSS](https://www.aluracursos.com/blog/como-organizar-
 Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt](https://colorhunt.co/)
 
 [Adobe Color Wheel](https://color.adobe.com/es/create/color-wheel)
+
+## GIT
+
+[Alura - Guia de Instalacion]{https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos}
+
+### Resumen de comandos
+
++ Configura tu nombre (no es tu usuario/username) `git config --global user.name "Tu Nombre"` verifica con `git config --global user.name`
++ Configura tu e-mail `git config --global user.email "tu-email@ejemplo.com"` verifica con `git config --global user.email`
+
+
