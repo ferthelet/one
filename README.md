@@ -38,6 +38,13 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 + ver lista de cambios `git log --oneline`
 + restaurar archivo(s) `git restore --source [hash de la lista de cambios] path/archivo`
 
+#### Multiples ramas
++ muestra ramas activas `git branch` con asterisco la rama activa si hubieran mas de una
++ crea rama `git checkout -b [nueva rama]`
++ cambia de rama `git switch [rama]`
++ enviar cambios puede requerir specificar orige y rama, ejemplo `git push origin [rama]`
++ fusionar cambios, perimero obtener el hash con `git log --oneline`  cambiar a rama main `git switch main` luego `git merge [rama]` finalmente `git push origin main`
+
 [Git Log Cheat Sheet](https://devhints.io/git-log-format)
 
 ### Javascript
