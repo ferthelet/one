@@ -84,7 +84,7 @@ Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt]
 
 ### Resumen de comandos
 
-+ Configura tu nombre (no es tu usuario/username) `git config --global user.name "Tu Nombre"` verifica con `git config --global user.name 1`
++ Configura tu nombre (no es tu username) `git config --global user.name "Tu Nombre"` verifica con `git config --global user.name`
 + Configura tu e-mail `git config --global user.email "tu-email@ejemplo.com"` verifica con `git config --global user.email`
 
 
