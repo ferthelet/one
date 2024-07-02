@@ -80,7 +80,7 @@ Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt]
 
 ## GIT
 
-[Alura - Guia de Instalacion]{https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos}
+[Alura - Guia de Instalacion](https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos)
 
 ### Resumen de comandos
 
