@@ -22,6 +22,15 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 ### Github
 [MarkDown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+[Badges](https://shields.io/)
+
+[Alura - Guia de Instalacion](https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos)
+
+### Resumen de comandos
+
++ Configura tu nombre (no es tu username) `git config --global user.name "Tu Nombre"` verifica con `git config --global user.name`
++ Configura tu e-mail `git config --global user.email "tu-email@ejemplo.com"` verifica con `git config --global user.email`
+
 ### Javascript
 
 [La documentación del Lenguaje JavaScript](https://app.aluracursos.com/course/logica-programacion-sumergete-programacion-javascript/task/85960#:~:text=La%20documentaci%C3%B3n%20del%20Lenguaje%20JavaScript)
@@ -77,14 +86,3 @@ BEM En Alura [Organizar el CSS](https://www.aluracursos.com/blog/como-organizar-
 Generadores de paletas de colores! [Coolors](https://coolors.co/) & [Color Hunt](https://colorhunt.co/)
 
 [Adobe Color Wheel](https://color.adobe.com/es/create/color-wheel)
-
-## GIT
-
-[Alura - Guia de Instalacion](https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos)
-
-### Resumen de comandos
-
-+ Configura tu nombre (no es tu username) `git config --global user.name "Tu Nombre"` verifica con `git config --global user.name`
-+ Configura tu e-mail `git config --global user.email "tu-email@ejemplo.com"` verifica con `git config --global user.email`
-
-
