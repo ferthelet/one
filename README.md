@@ -26,6 +26,8 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 
 [Alura - Guia de Instalacion](https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos)
 
+[Alura - Nueva Exigencia de Autenticacion](https://www.aluracursos.com/blog/exigendia-autenticacion-por-token)
+
 ### Resumen de comandos
 
 + Configura tu nombre (no es tu username) `git config --global user.name "Tu Nombre"` verifica con `git config --global user.name`
