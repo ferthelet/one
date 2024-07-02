@@ -140,8 +140,22 @@ span {
     text-align: center;
 }
 
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
+    .header {
+        padding:5%;
+    }
+
+    .header__menu {
+        justify-content: center;
+    }
+
     .presentacion {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion__contenido {
+        /* auto se adapta al elemento padre */
+        width: auto;
     }
 }
