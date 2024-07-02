@@ -33,6 +33,11 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 + Configura tu nombre (no es tu username) `git config --global user.name "Tu Nombre"` verifica con `git config --global user.name`
 + Configura tu e-mail `git config --global user.email "tu-email@ejemplo.com"` verifica con `git config --global user.email`
 
+#### Ver estado y gestion de log
++ `git status` luego `git add [.|archivo]` luego `git commit -m "actualiza xxx"`, finalmente `git push [origin main]`
++ ver lista de cambios `git log --oneline`
++ restaurar uno o varios arvhivos `git restore --source [hash de la lista de cambios] path/archivo`
+
 [Git Log Cheat Sheet](https://devhints.io/git-log-format)
 
 ### Javascript
