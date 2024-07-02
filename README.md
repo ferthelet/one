@@ -36,7 +36,7 @@ Mas informacion en [Oracle ONE Website](https://www.oracle.com/lad/education/ora
 #### Ver estado y gestion de log
 + `git status` luego `git add [.|archivo]` luego `git commit -m "actualiza xxx"`, finalmente `git push [origin main]`
 + ver lista de cambios `git log --oneline`
-+ restaurar uno o varios arvhivos `git restore --source [hash de la lista de cambios] path/archivo`
++ restaurar archivo(s) `git restore --source [hash de la lista de cambios] path/archivo`
 
 [Git Log Cheat Sheet](https://devhints.io/git-log-format)
 
