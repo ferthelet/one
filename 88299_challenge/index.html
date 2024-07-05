@@ -16,16 +16,16 @@
     <main class="presentacion">
         <div class="presentacion__izquierda">
             <div class="presentacion__izquierda__texto">
-                <textarea name="texto-fuente" class="texto-fuente">Ingrese el texto aqui</textarea>
+                <textarea id="texto-fuente">Ingrese el texto aqui</textarea>
             </div>
             <!-- Warning Sign -->
-            <p name="texto-advertencia" class="texto-advertencia">
+            <p id="texto-advertencia">
                 <img src="assets/af_exclamation_black.svg" alt="signo de advertencia" class="signo-advertencia">
                 Solo letras minúsculas y sin acentos
             </p>
             <div class="presentacion__izquierda__botones">
-                <button id="encriptar" >Encriptar</button>
-                <button id="desencriptar" disabled>Desencriptar</button>
+                <button onclick="encriptarTexto()" id="encriptarBtn" >Encriptar</button>
+                <button onclick="desencriptarTexto()" id="desencriptarBtn">Desencriptar</button>
             </div>
         </div>
 
@@ -39,8 +39,8 @@
                     Ingresa el texto que deseeas encriptar o desencriptar
                 </p>
                 <div class="presentacion__derecha__botones">
-                    <button id="copiar" disabled>Copiar</button>
-                    <button id="limpiar" disabled>Limpiar</button>
+                    <button id="copiarBtn" disabled>Copiar</button>
+                    <button id="limpiarBtn" disabled>Limpiar</button>
                 </div>
             </div>
         </div>
