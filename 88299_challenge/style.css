@@ -1,118 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/* declaracion de variables */
+root {
+    --main-bg-color: brown;
+    --color-base: #F3F5FC;
+    --color-primario: darkblue;
+    --color-secundario: lightgrey;
+    --color-terciario: white;
+    --color-hover: #00ADB5;
+
+    --fuente-primaria: Inter, Helvetica, Arial, serif;
+}
+
 /* reset css */
 * {
     padding: 0;
     margin: 0;
 }
 
-/* declaracion de variables */
-root {
-    --color-base: lightblue;
-    --color-primario: darkblue;
-    --color-secundario: lightgrey;
-    --color-terciario: white;
-    --color-hover: #00ADB5;
-
-    --fuente-primaria: "Inter", sans-serif;
-    --fuente-secundaria: ;
+header {
+    /* de .presentacion { margin: 10% 15%; } */
+    /* padding: top right bottom left */
+    padding: 2% 0% 0% 5%;
 }
 
 body {
+    background-color: #F3F5FC;
     box-sizing: border-box;
-    background-color: var(--color-terciario);
 }
 
-/* de alt */
-.tituloAbsoluto {
-    position: absolute;
-    inset: 40px 1280px 936px 40px;
-    width: 120px;
-    height: 48px;
+button {
+
 }
 
-.encriptador__main {
+.presentacion {
     display: flex;
-    flex-direction: column;
-    background-color: var(--color-secundario);
-    overflow: hidden;
-}
-
-.encriptador__instrucciones {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-.encriptador__container {
-    display: flex;
+    align-items:normal;
+    padding: 6% 20%;
     justify-content: space-between;
-    gap: 0 10px;
-    margin: 40px 40px 40px auto;
-    width: 1160.0625px;
-    max-width: 85%;
 }
 
-.encriptador__izquierda {
+.presentacion__izquierda {
     display: flex;
-    flex-direction: column;
-    margin: 128px 0 32px;
-    width: 680px;
-    min-width: 0; 
+    flex-direction: column;;
+    flex: 0 0 60%;
+    padding: 5% 5%;
+    /* padding: 10px; */
 }
 
-.encriptador__titulo {
+.texto-fuente {
     font: 400 32px/1.5 Inter, Helvetica, Arial, serif;
-    color: rgb(10 56 113);
-}
-
-.encriptador__texto {
-    margin: 635px 24 px 0;
-    font: 400 12px/1.5 Inter, Helvetica, Arial, seri;
-    color: rgb(73 80 87);
-    opacity: 0.8;
-}
-
-.boton {
-    border-radius: 24px;
-    background: darkblue;
-    color: var(--color-terciario);
-    padding: 16px 24px;
-    width: 328px;
-    height: 67px;
-    border: none;
-    margin-top: 2rem;
-}
-
-.encriptador_derecha {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    min-width: 0;
-    background-color: var(--color-terciario);
-    border-radius: 32px;
-    padding: 243px 32px;
-    box-shadow: 0 24px 32px -8px rgb(0 0 0 / 7.84%);
-}
-
-.principito {
     width: 100%;
-    object-fit: cover;
+    /* height: 150px; */
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px dotted;
+    background-color: #F3F5FC;
+    border-radius: 26px;
+    /* font-size: 32px; */
+    resize: auto;
+
 }
 
-.subtitulo {
-    display: flex;
-    justify-content: center;
-    margin: 32px 0 0;
-    font: 700 24px/1.2 Inter, Helvetica, Arial, serif;
-    color: var(--color-primario);
-    text-align: center;
+.texto-advertencia {
+    font: 400 12px/1.5 Inter, Helvetica, Arial, serif;
 }
 
-.highlightText {
-    display: flex;
-    justify-content: center;
-    margin: 16px 0 0;
+.signo-advertencia {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: top;
+}
+
+.presentacion__derecha {
+    flex: 0 0 40%;
+    width: 100%;
+    /* height: 150px; */
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px dotted;
+    background-color: white;
+    border-radius: 26px;
+    /* font-size: 32px; */
+    resize: auto;
+}
+
+.texto-destino {
+    font: 600 24px/1.5 Inter, Helvetica, Arial, serif;
+}
+
+.texto-instrucciones {
     font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
-    text-align: center;
 }

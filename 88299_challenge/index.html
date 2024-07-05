@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,16 +13,35 @@
         <img src="assets/alura_logo.png" alt="Logo de Alura">
     </header>
 
-    <main>
-        <div>
-            <textarea name="textoFuente" id="textoFuente" rows="10" cols="50">Ingrese el texto aqui</textarea>
-            <textarea name="textoDestino" id="textoDestino" rows="30" cols="50">Ningun mensaje encontrado</textarea>
+    <main class="presentacion">
+        <div class="presentacion__izquierda">
+            <div class="presentacion__izquierda__texto">
+                <textarea name="texto-fuente" class="texto-fuente">Ingrese el texto aqui</textarea>
+            </div>
+            <!-- Warning Sign -->
+            <p name="texto-advertencia" class="texto-advertencia">
+                <img src="assets/exclamation-solid-black.svg" alt="signo de advertencia" class="signo-advertencia">
+                Solo letras minúsculas y sin acentos</p>
+            <div class="presentacion__izquierda__botones">
+                <button id="encriptar">Encriptar</button>
+                <button id="desencriptar">Desencriptar</button>
+            </div>
         </div>
 
-        <p> (*) Solo letras minúsculas y sin acentos</p>
-        <div>
-            <button id="encriptar">Encriptar</button>
-            <button id="desencriptar">Desencriptar</button>
+        <div class="presentacion__derecha">
+            <div class="presentacion__derecha__texto">
+                <img src="assets/principito.png" alt="imagen del principito">
+                <p name="texto-destino" class="texto-destino" rows="30" cols="50">
+                    Ningun mensaje fue encontrado
+                </p>
+                <p name="texto-instrucciones" class="texto-instrucciones">
+                    Ingresa el texto que deseeas encriptar o desencriptar
+                </p>
+                <div class="presentacion__derecha__botones">
+                    <button id="copiar">Copiar</button>
+                    <button id="limpiar">Limpiar</button>
+                </div>
+            </div>
         </div>
     </main>
 
