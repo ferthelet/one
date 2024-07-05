@@ -2,12 +2,12 @@
 
 /* declaracion de variables */
 root {
-    --main-bg-color: brown;
-    --color-base: #F3F5FC;
-    --color-primario: darkblue;
-    --color-secundario: lightgrey;
-    --color-terciario: white;
-    --color-hover: #00ADB5;
+    --color-base: #e1e1e2;
+    --color-primario: #0a3871;
+    --color-primario-ligero: #849cba;
+    --color-secundario: #797b7c;
+    --color-terciario: #5d5c5c;
+    --color-hover: #748cac;
 
     --fuente-primaria: Inter, Helvetica, Arial, serif;
 }
@@ -107,11 +107,13 @@ button:disabled {
 }
 
 footer {
-    background-color: darkblue;
-    padding: 1rem;
+    /* background-color: darkblue; */
+    /* padding: 1rem; */
     text-align: center;
 }
 
 .icono {
+    fill: #0a3871;
     cursor: pointer;
+    width: 2rem;
 }
