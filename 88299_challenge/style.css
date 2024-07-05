@@ -54,7 +54,6 @@ button:disabled {
 .presentacion__izquierda {
     display: flex;
     flex-direction: column;
-    ;
     flex: 0 0 60%;
     padding: 5% 5%;
     /* padding: 10px; */
@@ -74,14 +73,14 @@ button:disabled {
     resize: none;
 }
 
-.texto-advertencia {
-    font: 400 12px/1.5 Inter, Helvetica, Arial, serif;
-}
-
 .signo-advertencia {
     width: 1rem;
     height: 1rem;
     vertical-align: top;
+}
+
+.texto-advertencia {
+    font: 400 12px/1.5 Inter, Helvetica, Arial, serif;
 }
 
 .presentacion__derecha {
