@@ -1,3 +1,10 @@
+
+// triggers
+
+function inicializa () {
+    document.getElementById("texto-fuente").value = "";
+}
+
 function encriptarTexto() {
     // La letra "e" es convertida para "enter"; "i", "imes"; "a", "ai"; "o", "ober"; "u", "ufat"
     let texto = document.getElementById("texto-fuente").value;
@@ -25,7 +32,6 @@ function desencriptarTexto() {
         'ufat' : 'u'
     };
     textoDesencriptado = texto.replace(/enter|imes|ai|ober|ufat/gi, (match) => replacements[match.toLowerCase()]);
-    console.log(textoDesencriptado);
     asignaTextoElemento(".texto-destino", textoDesencriptado);
 }
 
