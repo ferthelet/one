@@ -80,6 +80,10 @@ button:disabled {
     vertical-align: top;
 }
 
+#texto-advertencia::before {
+    content: '🚫';
+}
+
 #texto-advertencia {
     font: 400 12px/1.5 Inter, Helvetica, Arial, serif;
 }
