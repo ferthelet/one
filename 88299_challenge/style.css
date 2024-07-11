@@ -106,6 +106,14 @@ button:disabled {
 
 .texto-destino {
     font: 600 24px/1.5 var(--fuente-primaria);
+    border: none;
+    width: 100%;
+    color: var(--color-primario);
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .texto-instrucciones {

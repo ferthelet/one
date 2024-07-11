@@ -11,23 +11,24 @@ function encriptarTexto() {
     let textoEncriptado = '';
 
     const replacements = {
+        'a': 'ai',
         'e': 'enter',
         'i': 'imes',
-        'a': 'ai',
         'o': 'ober',
         'u': 'ufat'
     };
     textoEncriptado = texto.replace(/[eiaou]/gi, (match) => replacements[match.toLowerCase()]);
     asignaTextoElemento(".texto-destino", textoEncriptado);
+    document.getElementById("texto-destino").value = textoEncriptado;
 }
 
 function desencriptarTexto() {
     let texto = document.getElementById("texto-fuente").value;
     let textoDesencriptado = '';
     const replacements = {
+        'ai'   : 'a',
         'enter': 'e',
         'imes' : 'i',
-        'ai'   : 'a',
         'ober' : 'o',
         'ufat' : 'u'
     };
