@@ -3,10 +3,11 @@
 /* declaracion de variables */
 
 :root {
-    --color-base: #e1e1e2;
+    --color-base: #F3F5FC;
     --color-primario: #0a3871;
     --color-primario-ligero: #849cba;
     --color-secundario: #797b7c;
+    --color-secundario-ligero: lightgrey;
     --color-terciario: #5d5c5c;
     --color-hover: #748cac;
 
@@ -24,24 +25,24 @@ header {
 }
 
 body {
-    background-color: #F3F5FC;
+    background-color: var(--color-base);
     box-sizing: border-box;
 }
 
 button {
     border-radius: 24px;
-    background: #0a3871;
-    color: #e1e1e2;
+    background: var(--color-primario);
+    color: var(--color-base);
     padding: 1rem;
     width: 300px;
-    font: 300 16px/1.5 Inter, Helvetica, Arial, serif;
+    font: 300 16px/1.5 var(--fuente-primaria);
     margin-top: 2rem;
     cursor: pointer;
 }
 
 button:disabled {
-    background: lightgrey;
-    color: darkblue;
+    background: var(--color-secundario-ligero);
+    color: var(--color-primario);
     cursor: auto;
 }
 
@@ -66,9 +67,9 @@ button:disabled {
     height: 700px;
     padding: 12px 20px;
     box-sizing: border-box;
-    box-shadow: 10px 10px 20px lightgrey;
+    box-shadow: 10px 10px 20px var(--color-secundario-ligero);
     border: 1px dotted;
-    background-color: #F3F5FC;
+    background-color: var(--color-base);
     border-radius: 26px;
     /* font-size: 32px; */
     resize: none;
@@ -85,7 +86,7 @@ button:disabled {
 }
 
 #texto-advertencia {
-    font: 400 12px/1.5 Inter, Helvetica, Arial, serif;
+    font: 400 12px/1.5 var(--fuente-primaria);
 }
 
 .presentacion__derecha {
@@ -94,7 +95,7 @@ button:disabled {
     /* height: 150px; */
     padding: 8rem 1.5rem;
     box-sizing: border-box;
-    box-shadow: 10px 10px 20px lightgrey;
+    box-shadow: 10px 10px 20px var(--color-secundario-ligero);
     border: 1px dotted;
     background-color: white;
     border-radius: 26px;
@@ -104,11 +105,11 @@ button:disabled {
 }
 
 .texto-destino {
-    font: 600 24px/1.5 Inter, Helvetica, Arial, serif;
+    font: 600 24px/1.5 var(--fuente-primaria);
 }
 
 .texto-instrucciones {
-    font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+    font: 400 16px/1.5 var(--fuente-primaria);
 }
 
 footer {
