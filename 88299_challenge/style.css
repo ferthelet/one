@@ -109,11 +109,6 @@ button:disabled {
     border: none;
     width: 100%;
     color: var(--color-primario);
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .texto-instrucciones {
