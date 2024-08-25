@@ -5,7 +5,7 @@
 const NUMERO_MAX = 10;
 let numeroSecreto = 0;
 // console.log(numeroSecreto); // TBD
-let intentos = 0;
+let intentos = 3;
 // arreglo para evitar que los aleatorios se repitan
 let listaNumerosSorteados = [];
 

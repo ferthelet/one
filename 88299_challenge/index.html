@@ -23,15 +23,15 @@
                 Solo letras minúsculas y sin acentos
             </p>
             <div class="presentacion__izquierda__botones">
-                <button onclick="encriptarTexto()" id="encriptarBtn" >Encriptar</button>
+                <button onclick="encriptarTexto()" id="encriptarBtn">Encriptar</button>
                 <button onclick="desencriptarTexto()" id="desencriptarBtn">Desencriptar</button>
             </div>
         </div>
 
         <div class="presentacion__derecha">
             <div class="presentacion__derecha__texto">
-                <img src="assets/principito.png" alt="imagen del principito">
-                <textarea class="texto-destino" disabled placeholder="Ningun mensaje fue encontrado"></textarea>
+                <img id="principito" src="assets/principito.png" alt="imagen del principito">
+                <textarea id="texto-destino" readonly style="overflow:auto" placeholder="Ningun mensaje fue encontrado"></textarea>
                 <p name="texto-instrucciones" class="texto-instrucciones">
                     Ingresa el texto que deseeas encriptar o desencriptar
                 </p>
