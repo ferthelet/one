@@ -3,9 +3,8 @@
 
 function inicializa () {
     document.getElementById("texto-fuente").value = "";
-    document.getElementById("texto-destino").value = "";
+    document.getElementById("texto-destino").innerText = "Ningun mensaje fue encontrado";
     document.getElementById("principito").style.display = "inline";
-    // document.getElementById("principito").removeAttribute("hidden");
 }
 
 function encriptarTexto() {
@@ -23,7 +22,10 @@ function encriptarTexto() {
     };
     textoEncriptado = texto.replace(/[eiaou]/gi, (match) => replacements[match.toLowerCase()]);
     document.getElementById("principito").style.display = "none";
-    textoDestino.value = textoEncriptado;
+    textoDestino.innerText = textoEncriptado;
+    // textoDestino.value = textoEncriptado;
+    // textoDestino.style.height = auto;
+    // textoDestino.style.height = (textoDestino.scrollHeight) + "px";
 }
 
 function desencriptarTexto() {
@@ -40,8 +42,20 @@ function desencriptarTexto() {
     };
     textoDesencriptado = texto.replace(/enter|imes|ai|ober|ufat/gi, (match) => replacements[match.toLowerCase()]);
     document.getElementById("principito").style.display = "none";
-    textoDestino.value = textoDesencriptado;
+    textoDestino.innerText = textoDesencriptado;
 }
+
+function copiarTexto() {
+    let textoDestino = document.getElementById("texto-destino");
+    navigator.clipboard.writeText(textoDestino.innerText);
+    alert("Texto copiado al portapapeles");
+}
+
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     inicializa();
+// }
 
 // function asignaTextoElemento(elemento, texto) {
 //     let elementoHTML = document.querySelector(elemento);

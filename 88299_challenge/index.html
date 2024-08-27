@@ -31,13 +31,13 @@
         <div class="presentacion__derecha">
             <div class="presentacion__derecha__texto">
                 <img id="principito" src="assets/principito.png" alt="imagen del principito">
-                <textarea id="texto-destino" readonly style="overflow:auto" placeholder="Ningun mensaje fue encontrado"></textarea>
+                <p id="texto-destino">Ningun mensaje fue encontrado</p>
                 <p name="texto-instrucciones" class="texto-instrucciones">
                     Ingresa el texto que deseeas encriptar o desencriptar
                 </p>
                 <div class="presentacion__derecha__botones">
-                    <button id="copiarBtn" disabled>Copiar</button>
-                    <button id="limpiarBtn" disabled>Limpiar</button>
+                    <button onclick="copiarTexto()" id="copiarBtn">Copiar</button>
+                    <!-- <button id="limpiarBtn" disabled>Limpiar</button> -->
                 </div>
             </div>
         </div>
