@@ -49,9 +49,15 @@ function desencriptarTexto() {
 }
 
 function copiarTexto() {
-    let textoDestino = document.getElementById("texto-destino");
-    navigator.clipboard.writeText(textoDestino.innerText);
-    alert("Texto copiado al portapapeles");
+    const textoDestino = document.getElementById("texto-destino").innerText;
+    navigator.clipboard.writeText(textoDestino).then(() => {
+        const banner = document.getElementById("banner");
+        banner.hidden = false;
+        // Hide the banner after 2 seconds
+        setTimeout(() => {
+            banner.hidden = true;
+        }, 1000);
+    });
 }
 
 
