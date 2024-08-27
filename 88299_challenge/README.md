@@ -13,7 +13,7 @@ Mini proyecto que permite encriptar un texto simple y a su vez permite desencrip
 Solo es necesario bajar el proyecto de Github, copiar la ruta del index.html y pegarla en un navegador de Internet.
 
 ## Mas informacion
-Para mas informacion o reportar errores, por favor me pueden contactar por medio de Github o usando este link https://ferthelet.github.io/
+Para mas informacion o reportar errores: <jfsalaza@puc.cl>
 
 ## Autores del proyecto
 Agradecer al fantastico Grupo ONE en Discord que sin sus comentarios y ayudas esto hubiera sido infinitamente mas dificil
