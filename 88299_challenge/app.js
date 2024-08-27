@@ -8,9 +8,21 @@ function inicializa () {
     document.getElementById("texto-instrucciones").style.display = "inline";
 }
 
+function verificaTexto() {
+    let texto = document.getElementById("texto-fuente").value.trim();
+    // presenta alerta si hay caracteres especiales o algo distinto a minusculas/numeros, excepto ñ
+    if (/^[ a-z | 0-9 | ñ | \s ]+$/.test(texto)) {
+        return true;
+    } else {
+        alert("El texto no debe contener mayusculas ni caracteres especiales");
+        inicializa();
+    } 
+}
+
 function encriptarTexto() {
+    if (!verificaTexto()) return;
     // La letra "e" es convertida para "enter"; "i", "imes"; "a", "ai"; "o", "ober"; "u", "ufat"
-    let texto = document.getElementById("texto-fuente").value;
+    let texto = document.getElementById("texto-fuente").value.trim();
     let textoEncriptado = '';
     let textoDestino = document.getElementById("texto-destino");
 
@@ -25,13 +37,11 @@ function encriptarTexto() {
     document.getElementById("principito").style.display = "none";
     document.getElementById("texto-instrucciones").style.display = "none";
     textoDestino.innerText = textoEncriptado;
-    // textoDestino.value = textoEncriptado;
-    // textoDestino.style.height = auto;
-    // textoDestino.style.height = (textoDestino.scrollHeight) + "px";
 }
 
 function desencriptarTexto() {
-    let texto = document.getElementById("texto-fuente").value;
+    if (!verificaTexto()) return;
+    let texto = document.getElementById("texto-fuente").value.trim();
     let textoDesencriptado = '';
     let textoDestino = document.getElementById("texto-destino");
 
@@ -53,7 +63,7 @@ function copiarTexto() {
     navigator.clipboard.writeText(textoDestino).then(() => {
         const banner = document.getElementById("banner");
         banner.hidden = false;
-        // Hide the banner after 2 seconds
+        // Hide the banner after 1 second
         setTimeout(() => {
             banner.hidden = true;
         }, 1000);
