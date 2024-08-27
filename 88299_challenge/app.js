@@ -5,6 +5,7 @@ function inicializa () {
     document.getElementById("texto-fuente").value = "";
     document.getElementById("texto-destino").innerText = "Ningun mensaje fue encontrado";
     document.getElementById("principito").style.display = "inline";
+    document.getElementById("texto-instrucciones").style.display = "inline";
 }
 
 function encriptarTexto() {
@@ -22,6 +23,7 @@ function encriptarTexto() {
     };
     textoEncriptado = texto.replace(/[eiaou]/gi, (match) => replacements[match.toLowerCase()]);
     document.getElementById("principito").style.display = "none";
+    document.getElementById("texto-instrucciones").style.display = "none";
     textoDestino.innerText = textoEncriptado;
     // textoDestino.value = textoEncriptado;
     // textoDestino.style.height = auto;
@@ -42,6 +44,7 @@ function desencriptarTexto() {
     };
     textoDesencriptado = texto.replace(/enter|imes|ai|ober|ufat/gi, (match) => replacements[match.toLowerCase()]);
     document.getElementById("principito").style.display = "none";
+    document.getElementById("texto-instrucciones").style.display = "none";
     textoDestino.innerText = textoDesencriptado;
 }
 

@@ -114,7 +114,7 @@ button:disabled {
     color: var(--color-primario);
 }
 
-.texto-instrucciones {
+#texto-instrucciones {
     font: 400 16px/1.5 var(--fuente-primaria);
 }
 
@@ -132,4 +132,25 @@ footer {
     /* fill: #0a3871; */
     /* https://isotropic.co/tool/hex-color-to-css-filter/ */
     filter: invert(11%) sepia(80%) saturate(2880%) hue-rotate(205deg) brightness(94%) contrast(92%);
+}
+
+@media (max-width: 430px) {
+    body {
+        background-color: tan;
+      }
+
+}
+
+@media (min-width: 431px) {
+    body {
+        background-color: blue;
+      }
+
+}
+
+@media (min-width: 913px) {
+    body {
+        background-color: olive;
+      }
+
 }
